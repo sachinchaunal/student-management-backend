@@ -12,12 +12,9 @@ const app = express();
 // Middleware
 app.use(express.json()); // Parse JSON requests
 
-app.use(cors({
-  origin: ["https:student-management-system-ejci146q5-sachinchaunals-projects.vercel.app", "http://localhost:5000"],
-  methods: ["GET", "POST", "PUT", "DELETE"],
-  credentials: true
-}));
+
  // Enable CORS
+app.use(cors());
 app.use("/students", studentRoutes); // Use student routes
 
 // MongoDB Connection
