@@ -11,7 +11,11 @@ const app = express();
 
 // Middleware
 app.use(express.json()); // Parse JSON requests
-app.use(cors()); // Enable CORS
+app.use(cors({
+  origin: ["
+student-management-system-ejci146q5-sachinchaunals-projects.vercel.app", "http://localhost:5000"]
+}));
+ // Enable CORS
 app.use("/students", studentRoutes); // Use student routes
 
 // MongoDB Connection
