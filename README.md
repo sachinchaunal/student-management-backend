@@ -135,6 +135,27 @@ Your frontend will run at `http://localhost:3000`
 
 ✅ Add, Edit, Delete student records ✅ Upload student photos (Cloudinary Integration) ✅ Responsive UI with Tailwind CSS / Bootstrap ✅ Secure API with Express.js ✅ Hosted on Vercel (Frontend) and Render (Backend)
 
+## Project Preview
+
+<table>
+   <tr>
+    <td colspan="3"><img src="/screenshot/Screenshot (285).png" alt="Admin" width="800" height="400"></td>
+  </tr>
+   <tr>
+    <td colspan="3"><img src="/screenshot/Screenshot (286).png" alt="Admin" width="800" height="400"></td>
+  </tr>
+   <tr>
+    <td colspan="3"><img src="/screenshot/Screenshot (287).png" alt="Landing" width="800" height="400"></td>
+  </tr>
+   <tr>
+    <td colspan="3"><img src="/screenshot/Screenshot (288).png" alt="Admin" width="800" height="400"></td>
+  </tr>
+   <tr>
+    <td colspan="3"><img src="/screenshot/Screenshot (289).png" alt="Admin" width="800" height="400"></td>
+  </tr>
+ 
+</table>
+
 ---
 
 
